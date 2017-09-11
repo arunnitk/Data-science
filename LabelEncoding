@@ -1,1 +1,20 @@
 
+Label Encoding is encoding labels as Numeric. 
+
+For example:
+  If we have dataset with a Gender feature so we label them as say Males as 1 and Females as 2.
+Example2:
+  Say we have a dataset which has country feature so inorder to take this feature into consideration while passing into linear
+  regression, xgboost or other tree based models we do a label encoding.
+    So, say in this case lets think that we have 4 country names in the label country.
+    
+    4 Countries are US, India, Britian, France
+    
+    So, we label these 4 countries from 1-4
+    
+    So, we assign US as 1, India as 2, Britian as 3 and France as 4.
+    Here we cant compare one class is greater or smaller than other. I mean to say that 2 > 1 , this should not be done.
+    
+    
+    
+  
