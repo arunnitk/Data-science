@@ -1,0 +1,6 @@
+For algorithm to converge fastly we do mean normalization or Scaling of features
+
+So, Mean Normalization = (Xi - (mu))/Std
+
+Scaling = Xi/Range
+where Range = Max - Min
