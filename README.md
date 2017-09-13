@@ -8,6 +8,11 @@ Key takeaways:
 
 1) Basics of Python
 
-2) Machine learning 
+2) Machine learning
+  a) ML using Python
+  b) ML using R
 
 3) Statistics
+
+4) Projects
+
