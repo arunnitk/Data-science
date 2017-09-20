@@ -27,6 +27,9 @@ A = A/norm_A
 9.667364890456635329e-02	4.833682445228317803e-01	8.700628401410971380e-01
 5.570860145311555822e-01	7.427813527082074430e-01	3.713906763541037215e-01
 
+So, here if we see A is a (3,2) matrix and norm_A is a (2,1) matrix, So how is it possible to divide a (3,2) matrix by a (2,1) matrix. 
+This concept is known as Broadcasting which will be discussed later.
+
 
 # I am writing a function implementing the above concept
 
