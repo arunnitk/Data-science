@@ -1,0 +1,16 @@
+# Load data set
+import numpy as np
+import pandas as pd
+import regex as re
+import matplotlib as plt
+
+#IMPORT DATASET
+dataset_path = " " # Dataset path in local system
+file_name = " "
+if file_name.endswith(".csv"):
+	dataset = pd.read_csv(dataset_path + file_name)
+elif file_name.endswith(".xlsx")|file_name.endswith(".xls"):
+	dataset = pd.read_excel(dataset_path + file_name)
+	
+print(dataset + "Impored sucessfully!")
+
