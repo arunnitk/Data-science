@@ -4,3 +4,25 @@ So, Mean Normalization = (Xi - (mu))/Std
 
 Scaling = Xi/Range
 where Range = Max - Min
+
+
+Here, i want to explain using Python
+Say A is a numpy array.
+
+A = np.array([[1,5,9],[6,8,4]])
+#A.shape = 2,3
+#np.sqrt(np.sum(x[0]**2))
+
+#To normalize A we have to find ||A|| which is the norm A
+
+norm_A = np.linalg.norm(A,axis=1,keepdims=True)
+
+#axis = 1 -- > Horizontal
+
+#then divide A by norm_A
+
+A = A/norm_A
+
+# Normalized values of A
+9.667364890456635329e-02	4.833682445228317803e-01	8.700628401410971380e-01
+5.570860145311555822e-01	7.427813527082074430e-01	3.713906763541037215e-01
